@@ -11,7 +11,7 @@ const PostDetails = () => {
 
   return (
     <div className="p-6 max-w-3xl border rounded-xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">{post.title}</h2>
+      <h2 className="text-xl font-bold mb-4">{post.title}</h2>
       <p className="text-gray-800 text-lg">{post.body}</p>
 
       <Link

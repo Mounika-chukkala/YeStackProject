@@ -72,7 +72,7 @@ const Home = () => {
               }`}
             >
               <Link to={`/post/${post.id}`}>
-                <h2 className="text-xl font-semibold">{post.title}</h2>
+                <h2 className="text-xl font-semibold line-clamp-1">{post.title}</h2>
                 <p className="text-gray-600 truncate">{post.body}</p>
               </Link>
               {post.isLocal && (
