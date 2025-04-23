@@ -5,7 +5,6 @@ const PostDetails = () => {
   const { id } = useParams();
   const { posts } = usePosts();
 
-  // Find the post by ID from context (local + API)
   const post = posts.find((p) => p.id.toString() === id);
 
   if (!post) return <p className="text-center text-red-500">Post not found.</p>;
